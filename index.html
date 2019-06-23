@@ -1,27 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inventory Application</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
+
 <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="#">NSOB Status Tracker</a>
+        <button class="navbar-toggler" type="button" data-toggdle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <header>
-        header
-    </header>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cci-tracker.html">CCI-Tracker</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">WSR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">RA-Tracker</a>
+                </li>
 
-    <nav id="main-nav">
-        nav
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
     </nav>
 
-    <div id="main-inv-view">
-        <section>
-            section
-        </section>
+    <!-- SIDE ACTION MENU -->
+    <div class="container-fluid">
+        <div class="col-2">
+            <!-- Each list item will be an action that can be performed on the current view -->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    test
+                </li>
+                <li class="list-group-item">
+                    test1
+                </li>
+                <li class="list-group-item">
+                    test2
+                </li>
+            </ul>
+        </div>
+        <div class="col-10">
+            <div class="row">
+                
+
+            </div>
+
+        </div>
     </div>
-    
+
 </body>
+
 </html>
